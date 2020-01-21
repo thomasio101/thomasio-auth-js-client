@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thomasio101/thomasio-auth-js-client/issues"
   },
-  "homepage": "https://github.com/thomasio101/thomasio-auth-js-client#readme"
+  "homepage": "https://github.com/thomasio101/thomasio-auth-js-client#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
