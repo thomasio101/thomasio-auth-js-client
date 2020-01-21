@@ -29,5 +29,11 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.7.5"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "axios": "^0.19.1",
+    "thomasio-auth-js-common": "^1.7.0"
+  }
 }
