@@ -2,7 +2,8 @@
   "name": "thomasio-auth-js-client",
   "version": "1.0.0",
   "description": "This project's documentation is coming soon!",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -35,5 +36,6 @@
   "dependencies": {
     "axios": "^0.19.1",
     "thomasio-auth-js-common": "^1.7.0"
-  }
+  },
+  "keywords": ["auth", "thomasio-auth", "http", "axios"],
 }
