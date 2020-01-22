@@ -71,9 +71,12 @@ export class AuthClient<E, I, U> {
 		const response = await axiosInstance.post<{ success: true; identity: I } | { success: false; error: E }>(
 			this.loginUrl,
 			{
+				/* tslint:disable-next-line */
 				username,
 				/* tslint:disable-next-line */
 				password,
+				/* tslint:disable-next-line */
+				userData,
 			},
 		);
 
