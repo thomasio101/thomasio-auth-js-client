@@ -69,7 +69,7 @@ export class AuthClient<E, I, U> {
 	): Promise<{ success: true; identity: I } | { success: false; error: E }> {
 		// TODO: Implement a shared codebase to, for example, share UserCreator's return type.
 		const response = await axiosInstance.post<{ success: true; identity: I } | { success: false; error: E }>(
-			this.loginUrl,
+			this.registerUrl,
 			{
 				/* tslint:disable-next-line */
 				username,
